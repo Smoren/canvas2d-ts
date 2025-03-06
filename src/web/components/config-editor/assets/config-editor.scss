@@ -1,0 +1,33 @@
+.section {
+  margin-bottom: 30px;
+
+  > div, div.content > div {
+    margin-bottom: 15px;
+
+    input[type=number] {
+      width: 100%;
+    }
+  }
+
+  table {
+    width: 100%;
+
+    input {
+      width: 100%;
+    }
+  }
+
+  .btn-group {
+    width: 100%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .offcanvas-start {
+    min-width: 500px;
+  }
+
+  .offcanvas-end {
+    min-width: 500px;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "lib": ["es2017", "dom"],
+    "types": ["unplugin-vue-macros/macros-global", "node"],
+    "ignoreDeprecations": "5.0",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+
+  "references": [
+    {
+      "path": "./tsconfig.config.json"
+    }
+  ]
+}
