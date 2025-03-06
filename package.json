@@ -1,5 +1,5 @@
 {
-  "name": "babylon-ts",
+  "name": "canvas2d-ts",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,7 +20,6 @@
     "@fortawesome/vue-fontawesome": "^3.0.6",
     "@vueuse/core": "~10.9.0",
     "axios": "^1.7.7",
-    "babylonjs": "^6.0.0",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
     "dotenv": "^16.4.5",

@@ -1,4 +1,4 @@
-# Babylon Examples Project
+# Canvas 2D Examples Project
 
 ## Install
 
